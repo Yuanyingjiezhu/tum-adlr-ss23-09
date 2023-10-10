@@ -1,0 +1,8 @@
+venv/
+data/
+out/
+motion_planning/data/
+motion_planning/out/
+*.gif
+*.png
+*.pth
