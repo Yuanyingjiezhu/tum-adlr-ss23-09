@@ -16,7 +16,13 @@ To evaluate a pretrained model or train a new model from scratch, you have to ob
 In this paper, we generate a complex dynamic environment which contains 16 moving obstacles. The size of each obstacle is randomly generated, and to better simulate the movement in real world, we add some noise in it, such as time-varying velocity and rotation speed.
 
 ### Dynamic Environment Generation
-To generate dynamic environments, we provide the script `similarity.py`
+To generate dynamic environments, we provide the script `data_preprocessing.py` and .
+
+### Ground Truth Generation
+To generate the ground truth trajectory for each dynamic environment, we provide the script `data_preprocessing.py`.
+
+### Training
+For the training of first stage, i.e. the joint model of Conv Onet and VAE, run:
 
 
 
