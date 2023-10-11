@@ -16,14 +16,15 @@ To evaluate a pretrained model or train a new model from scratch, you have to ob
 In this paper, we generate a complex dynamic environment which contains 16 moving obstacles. The size of each obstacle is randomly generated, and to better simulate the movement in real world, we add some noise in it, such as time-varying velocity and rotation speed.
 
 ### Dynamic Environment Generation
-To generate dynamic environments, we provide the script `data_preprocessing.py` and .
+To generate dynamic environments, we provide the script `data_preprocessing.py` and `Trajectory_aggregation.py`.
 
 ### Ground Truth Generation
-To generate the ground truth trajectory for each dynamic environment, we provide the script `data_preprocessing.py`.
+To generate the ground truth trajectory for each dynamic environment, we provide the script `astar.py`, which applies the adjusted A* Algorithm.
 
-### Training
-For the training of first stage, i.e. the joint model of Conv Onet and VAE, run:
+### Training and Test
+For the training of trajectory planning model, we provide the script `motion_planning/train.py`, and for testing, use the script `motion_planning/test.py`.
 
+We also provide a script `motion_planning/visualization.py` for visualisation, we can see how many collisions happen within the trajectory and their position.
 
 
 
