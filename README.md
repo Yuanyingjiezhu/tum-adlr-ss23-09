@@ -9,7 +9,7 @@ we make trajectory planning of drones using supervised learning. The target is a
 
 ## Dataset
 <div style="text-align: center">
-<img src="media/demo_syn_room.gif" width="600"/>
+<img src="media/66e8411ad075e7c36c4cc27f16722c8.png" width="600"/>
 </div>
 To evaluate a pretrained model or train a new model from scratch, you have to obtain the respective dataset.
 In this paper, we consider the following dataset:
