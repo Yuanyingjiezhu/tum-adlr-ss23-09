@@ -12,8 +12,11 @@ we make trajectory planning of drones using supervised learning. The target is a
 <img src="media/66e8411ad075e7c36c4cc27f16722c8.png" width="600"/>
 </div>
 To evaluate a pretrained model or train a new model from scratch, you have to obtain the respective dataset.
-In this paper, we consider the following dataset:
-we generate a complex dynamic environment which contains 16 moving obstacles. The size of each obstacle is randomly generated, and to better simulate the movement in real world, we add some noise in it, such as time-varying velocity and rotation speed.
+
+In this paper, we generate a complex dynamic environment which contains 16 moving obstacles. The size of each obstacle is randomly generated, and to better simulate the movement in real world, we add some noise in it, such as time-varying velocity and rotation speed.
+
+### Dynamic Environment Generation
+To generate dynamic environments, we provide the script `similarity.py`
 
 
 
