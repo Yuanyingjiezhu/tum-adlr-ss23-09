@@ -1,7 +1,7 @@
 # Trajectory planning with moving obstacle
 
 <div style="text-align: center">
-<img src="media/3e536386519667cdb7d62d2fc2326e2.png" width="600"/>
+<img src="media/379565c6cb93534ab773dba81eb443f.png" width="600"/>
 </div>
 
 This project aims to first find an appropriate way to encode dynamic environment with the help of BPS method due to its powerful performance. And then with the encoded information
